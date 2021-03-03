@@ -27,11 +27,12 @@ def shapenet(object='Airplane', layer='e', layer_num=1, idx=0):
         Visualization shapenet
         @ https://github.com/dogyoonlee/point_cloud_feature_visualization
     '''
+
     if layer is 'e':
-        filename = '../../feature_vis/2021-3-3-12/Airplane/feature_Object_' + str(
+        filename = '../../feature_vis/2021-3-3-12/' + object + '/feature_Object_' + str(
             idx) + '_' + object + '_Encode_Layer_' + str(layer_num) + '.npy'
     else:
-        filename = '../../feature_vis/2021-3-3-12/Airplane/feature_Object_' + str(
+        filename = '../../feature_vis/2021-3-3-12/' + object + '/feature_Object_' + str(
             idx) + '_' + object + '_Decode_Layer_' + str(layer_num) + '.npy'
     # input: B x N x (3 + 3) ; rgb value format : 0~1
     data = np.load(filename)
