@@ -1,5 +1,6 @@
-# point_cloud_feature_visualization
+# point cloud feature visualization
 **Visualization of feature activation for point cloud data.**
+
 This code implemented for shapenet dataset.
 
 <p align="center">
