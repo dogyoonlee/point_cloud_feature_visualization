@@ -20,7 +20,9 @@ self.Visualize_feature.feature_save(xyz=li_xyz, features=li_features, layer_name
 ```
 
 3. Visualize using **vis_shapenet.py**(Open3D tool is used) in ./visualization_tool directory.
-
+```
+python ./visualization_tool/vis_shapenet.py
+```
 ## License
 MIT License
 
