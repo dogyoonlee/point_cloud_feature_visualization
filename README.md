@@ -2,7 +2,8 @@
 **Visualization of feature activation for point cloud data.**
 This code implemented for shapenet dataset.
 
-[[Paper]](paper_address)
+<img src='./feature_visualization_ex.png' width=400>
+
 
 ## How to Use
 1. Import and init the implemented class to the target network source code.
