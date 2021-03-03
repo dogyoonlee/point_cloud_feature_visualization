@@ -2,8 +2,9 @@
 **Visualization of feature activation for point cloud data.**
 This code implemented for shapenet dataset.
 
-<img src='./feature_visualization_ex.png' width=400>
-
+<p align="center">
+<img src='./feature_visualization_ex.png' width=400/>
+</p>
 
 ## How to Use
 1. Import and init the implemented class to the target network source code.
